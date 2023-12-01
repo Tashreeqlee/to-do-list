@@ -8,3 +8,50 @@
 body {
     text-align: center;
 }
+.container {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 500px;
+}
+#heading {
+    margin-bottom: 20px;
+}
+  
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+  
+#sortbtn,#addbtn {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #b4c3b5;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+  
+#sortbtn:hover,#addbtn:hover {
+    background-color: #45a049;
+}
+  
+#todo-input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+  
+.output {
+    text-align: center;
+}
+  
+#taskList {
+    padding: 0;
+}
+  
+#taskList li {
+    margin-bottom: 10px;
+}
